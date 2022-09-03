@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serendipity</title>
+    <link rel="stylesheet" href="style.css" class="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+         
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu">
+            <a href="home.html"><li>Home</li></a>
+            <a href="booking.html"><li>Booking</li></a>
+            <a href="services.html"><li>Services</li></a>
+            <a href="about.html"><li>About Us</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+    </nav>
+   
+    <div class="services">
+        <div class="services_container">
+            <div>
+                <p class="topline animate-services">what we offer</p>
+                <h1 class="services_heading animate-services">Spark Your Beauty</h1>
+                <div class="services_features">
+                    <p class="services_feature animate-services"><i class="fab fa-gratipay"></i></i>Facials and skin care treatments </p>
+                    <p class="services_feature animate-services"><i class="fab fa-gratipay"></i></i>Tanning</p>
+                    <p class="services_feature animate-services"><i class="fab fa-gratipay"></i></i>Complementary care such as aromatherapy</p>
+                    <p class="services_feature animate-services"><i class="fab fa-gratipay"></i></i>Nail treatments </p>
+                    <p class="services_feature animate-services"><i class="fab fa-gratipay"></i></i>Manicures and pedicures</p>
+                    <p class="services_feature animate-services"><i class="fab fa-gratipay"></i></i>Herbal or chemical solutions</p>
+                </div>
+            </div>
+            <div>
+                <img src="./pics/sel.jpg" alt="" class="services_img animate-img">
+            </div>
+        </div>
+    </div>
+ 
+    <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serendipity</title>
+    <link rel="stylesheet" href="style.css" class="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+         
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu">
+            <a href="home.html"><li>Home</li></a>
+            <a href="booking.html"><li>Booking</li></a>
+            <a href="services.html"><li>Services</li></a>
+            <a href="about.html"><li>About Us</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+    </nav>
+   
+    <div class="team">
+        <div class="team_wrapper">
+            <div class="team_text animation-team">
+                <p class="topline"> private services</p>
+                <h1>meet our methods</h1>
+                <p class="team_desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Repudiandae eligendi at error dolorum obcaecati reprehenderit accusantium exercitationem ipsum et unde.
+                </p>
+            </div>
+            <div class="team_text animation-team">
+                <p class="topline">1 session trial </p>
+                <h1>for your satisfaction</h1>
+                <p class="team_desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Repudiandae eligendi at error.
+                </p>
+            </div>
+            <div class="team_card animation-team">
+                <p>Profacial </p>
+                <img src="./pics/7.jpg" alt="person" class="team_img">
+            </div>
+            <div class="team_card animation-team">
+                <p>Citrus Body Butter</p>
+                <img src="./pics/18.jpg" alt="person" class="team_img">
+            </div>
+            <div class="team_card animation-team">
+                <p>Hydratıon</p>
+                <img src="./pics/12.jpg" alt="person" class="team_img">
+            </div>
+            <div class="team_card animation-team">
+                <p>Organic Cream</p>
+                <img src="./pics/99.jpg" alt="person" class="team_img">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
